@@ -1,0 +1,47 @@
+{
+    "extends": [ "airbnb",
+      "prettier",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:prettier/recommended"],
+    "plugins": ["prettier", "react-hooks", "prettier"],
+    "rules": {
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [".js", ".jsx"]
+        }
+      ],
+      "no-console":"off",
+      "no-param-reassign": [2, { "props": false }],
+      "linebreak-style": ["error", "unix"],
+      "react-hooks/rules-of-hooks": "warn",
+      "react-hooks/exhaustive-deps": "warn",
+      "max-len": [1, 120, 2, { "ignoreComments": true }],
+      "prettier/prettier": ["error"],
+      "no-underscore-dangle": [
+        "error",
+        { "allow": ["__REDUX_DEVTOOLS_EXTENSION__"] }
+      ],
+      "react/jsx-one-expression-per-line": "off",
+      "react/prop-types": 0,
+      "import/imports-first": ["error", "absolute-first"],
+      "import/newline-after-import": "error",
+      "import/prefer-default-export": 0,
+      "semi": "error"
+    },
+    "globals": {
+      "window": true,
+      "document": true,
+      "localStorage": true,
+      "FormData": true,
+      "FileReader": true,
+      "Blob": true,
+      "navigator": true,
+      "Headers": true,
+      "Request": true,
+      "fetch": true
+    },
+    "parser": "babel-eslint"
+  }
+  

@@ -1,0 +1,18 @@
+export const USER = {
+  LOGIN: 'USER_SIGNIN',
+  LOGOUT: 'USER_SIGNOUT',
+  SAVED_DATA: 'USER_DATA_SAVED',
+  SIGNUP: 'USER_SIGN_UP',
+};
+export const SHOW_ERROR = 'SHOW_ERROR';
+export const HIDE_ERROR = 'HIDE_ERROR';
+
+export const BOOKING = {
+  SINGLE: 'SINGLE_BOOKING',
+  SAVE: 'SAVE_SINGLE_BOOKING',
+};
+
+export const VIDEO = {
+  CREATE: 'CREATE_VIDEO',
+  SAVE: 'SAVE_VIDEO',
+};

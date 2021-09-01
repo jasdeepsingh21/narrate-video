@@ -1,0 +1,21 @@
+
+.page-wrapper{
+    position: relative;
+}
+.page-wrapper h4{
+    color: #333;
+    margin-bottom: 5px;
+    text-align: start;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .page-wrapper .addbutton{
+       background-color: #109de7;
+    border-radius: 50px;
+    padding: 5px 15px;
+    position: absolute;
+    right: 5px;
+    top: 18px;
+  }

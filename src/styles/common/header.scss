@@ -1,0 +1,18 @@
+.header-container {
+  .MuiAppBar-positionFixed {
+    height: 4em;
+    // background: #595959;
+    color: $black-color;
+  }
+  .header-icon {
+    width: 100%;
+    text-align: right;
+  }
+  .header-logo{
+    width:8rem;
+  }
+}
+
+.link{
+  text-decoration: none;
+}
